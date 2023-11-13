@@ -20,7 +20,7 @@ Kullanım:
 Uygulama başladığında, aşağıdaki API endpoint'lerini kullanarak programlama dilleriyle ilgili işlemleri gerçekleştirebilirsiniz:
 
 * GET /getall tüm programlama dillerini listeler.
-* GET /fetch/{id} belirli bir programlama dilini id ile getirir.
+* GET /getById/{id} belirli bir programlama dilini id ile getirir.
 * POST /add yeni bir programlama dili ekler.
 * PUT /update mevcut bir programlama dilini günceller.
 * DELETE /delete/{id} belirli bir programlama dilini siler.
